@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://java.sun.com/xml/ns/javaee" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+    http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+    
+  <display-name>multi-parser</display-name>
+  <welcome-file-list>
+    <welcome-file>simple</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+      <servlet-name>simple</servlet-name>
+      <servlet-class>com.page.action.SimplePageAction</servlet-class>
+  </servlet>
+  <servlet>
+      <servlet-name>print1</servlet-name>
+      <servlet-class>com.page.action.TestKlik</servlet-class>
+  </servlet>
+  <servlet>
+      <servlet-name>highlight</servlet-name>
+      <servlet-class>com.page.action.DoHighlight</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+      <servlet-name>simple</servlet-name>
+      <url-pattern>/simple</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+      <servlet-name>print1</servlet-name>
+      <url-pattern>/print1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+      <servlet-name>highlight</servlet-name>
+      <url-pattern>/highlight</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>bilanganToKalimat</servlet-name>
+      <servlet-class>com.parsing.bilangan.SimpleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>bilanganToKalimat</servlet-name>
+      <url-pattern>/simple/bilanganToKalimat.jsp</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>toConverter</servlet-name>
+      <servlet-class>com.page.action.ConverterBilangan</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>toConverter</servlet-name>
+      <url-pattern>/toConverter</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <servlet>
+      <servlet-name>downloadTa</servlet-name>
+      <servlet-class>com.fjr.downloader.DownloadTa</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>downloadTa</servlet-name>
+      <url-pattern>/downloadTa</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>

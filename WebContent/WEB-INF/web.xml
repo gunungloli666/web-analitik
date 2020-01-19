@@ -63,5 +63,14 @@
       <servlet-name>downloadTa</servlet-name>
       <url-pattern>/downloadTa</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>downloadBuku</servlet-name>
+	  <servlet-class>com.fjr.download.buku.DownloadBuku</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	  <servlet-name>downloadBuku</servlet-name>
+  	  <url-pattern>/downloadBuku</url-pattern>
+  </servlet-mapping>
  
 </web-app>

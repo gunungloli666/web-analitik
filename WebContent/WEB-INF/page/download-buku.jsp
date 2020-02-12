@@ -4,6 +4,7 @@
 
 Daftar Download Link Buku-buku bagus:<br /><br />
 
-1. <a href="https://www.academia.edu/41605907/ISI_Blog_Catatan_Pinggir_Gunawan_Mohammad">Kompilasi Catatan Pinggir Gunawan Muhammad</a>
+1. <a href="https://www.academia.edu/41605907/ISI_Blog_Catatan_Pinggir_Gunawan_Mohammad">Kompilasi Catatan Pinggir Gunawan Muhammad (Pimred Majalah Tempo)</a>
 <br />
-
+2. <a href="https://www.academia.edu/41915781/Artikel-Artikel_Di_Situs_Islam_Liberal_Ulil_Absar_Abdalla_Ade_Armando_dkk_">Artikel-artikel di situs Islam Liberal</a>
+<br />

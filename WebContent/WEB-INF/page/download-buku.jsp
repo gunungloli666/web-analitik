@@ -8,3 +8,5 @@ Daftar Download Link Buku-buku bagus:<br /><br />
 <br />
 2. <a href="https://www.academia.edu/41915781/Artikel-Artikel_Di_Situs_Islam_Liberal_Ulil_Absar_Abdalla_Ade_Armando_dkk_">Artikel-artikel di situs Islam Liberal</a>
 <br />
+3. <a href="https://www.academia.edu/12255355/Contoh_Tesis_Magister_ITB_KBK_Fisika_Teoritik_Atas_Nama_Muhammad_Imansyah_Solusi_Persamaan_Maxwell_di_Ruang_Kottler">
+Tesis Muhammad Imansyah Asal Riau</a> <br />

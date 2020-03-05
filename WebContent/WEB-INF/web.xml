@@ -72,5 +72,14 @@
   	  <servlet-name>downloadBuku</servlet-name>
   	  <url-pattern>/downloadBuku</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>simulasiSph</servlet-name>
+	  <servlet-class>com.fjr.simulasi.SimulasiSPH</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>simulasiSph</servlet-name>
+  	<url-pattern>/simulasiSph</url-pattern>
+  </servlet-mapping>
  
 </web-app>

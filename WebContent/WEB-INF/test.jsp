@@ -14,6 +14,8 @@
 <%
 String path = request.getContextPath(); 
 %>
+
+
 <link rel="stylesheet" href="<%=path%>/style/w3.css" type="text/css" >
 <link rel="stylesheet" href="<%=path%>/style/x1.css" type="text/css" >
 
@@ -47,7 +49,7 @@ String path = request.getContextPath();
 	<a href="toConverter">Tutorial</a>
 	<a href="downloadTa" >Download TESIS ITB</a>
 	<a href="downloadBuku" >Download Buku</a>
-	
+	<a href="simulasiSph">Simulasi SPH</a>
 </nav>
 
 <%
